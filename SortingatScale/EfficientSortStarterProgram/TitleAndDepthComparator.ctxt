@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Location\ getLocation()
+comment1.params=
+comment1.target=double\ getMagnitude()
+comment2.params=
+comment2.target=java.lang.String\ getInfo()
+comment3.params=
+comment3.target=double\ getDepth()
+comment4.params=q1\ q2
+comment4.target=int\ compare(QuakeEntry,\ QuakeEntry)
+numComments=5
