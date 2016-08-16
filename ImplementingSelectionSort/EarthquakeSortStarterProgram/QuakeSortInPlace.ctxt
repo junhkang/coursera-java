@@ -1,0 +1,29 @@
+#BlueJ class context
+comment0.params=
+comment0.target=QuakeSortInPlace()
+comment1.params=quakes\ from
+comment1.target=int\ getSmallestMagnitude(java.util.ArrayList,\ int)
+comment10.params=
+comment10.target=void\ testSort()
+comment11.params=
+comment11.target=void\ createCSV()
+comment12.params=list
+comment12.target=void\ dumpCSV(java.util.ArrayList)
+comment2.params=quakeData\ indx
+comment2.target=int\ getLargestDepth(java.util.ArrayList,\ int)
+comment2.text=public\ int\ getLargestDepth(ArrayList<QuakeEntry>\ QuakeData,\ int\ from)\ \ \ {\r\n\ \ \ \ \ \ \ \ int\ minidx\ \=\ from;\r\n\ \ \ \ \ \ \ \ for\ (int\ i\ \=\ from+1;\ i<QuakeData.size();\ i++)\ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ \ (QuakeData.get(i).getDepth()\ >\ QuakeData.get(minidx).getDepth())\ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ minidx\ \=\ i;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ minidx;\r\n\ \ \ \ }\r\n
+comment3.params=in
+comment3.target=void\ sortByLargestDepth(java.util.ArrayList)
+comment4.params=in
+comment4.target=void\ sortByMagnitude(java.util.ArrayList)
+comment5.params=quakeData\ numSorted
+comment5.target=void\ onePassBubbleSort(java.util.ArrayList,\ int)
+comment6.params=in
+comment6.target=void\ sortByMagnitudeWithBubbleSort(java.util.ArrayList)
+comment7.params=quakes
+comment7.target=boolean\ checkInSortedOrder(java.util.ArrayList)
+comment8.params=in
+comment8.target=void\ sortByMagnitudeWithBubbleSortWithCheck(java.util.ArrayList)
+comment9.params=in
+comment9.target=void\ sortByMagnitudeWithCheck(java.util.ArrayList)
+numComments=13
